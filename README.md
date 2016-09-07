@@ -59,7 +59,7 @@ The next task is to copy your figure to the repository and commit the changes.
 
     git status
 
-At this point your changes have been committed to your local, private repository only and no one else can see them. Note that in git terminology each repository copy is a repository in its own right, and the use of 'commit' is subtly different than in other version control systems that are not as distributed in character. When you 'commit' in git you make your changes in a repository permanent, and this repository is often (but not always) your local one. These changes do not automatically propagate to other related repositories. In other version control systems (like svn), a 'commit' makes your changes permanent and copies them to the master repository.
+At this point your changes have been committed to your local, private repository only and no one else can see them. Note that in git terminology each repository copy is a repository in its own right, and the use of 'commit' is subtly different than in other version control systems that are not as distributed in character. When you 'commit' in git you make your changes in a repository permanent, and this repository is often (but not always) your local one. These changes do not automatically propagate to other related repositories. In other version control systems (like svn), a 'commit' makes your changes permanent and simultaneously copies them to the master repository.
 
 ## Push your committed changes to your public repository
 
