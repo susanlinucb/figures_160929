@@ -1,6 +1,6 @@
 # figures_160929
 
-This repository was created as an exercise in using `git` and github for PhonLab users. The task is to add a figure that you would like to discuss at the next Lab meeting.
+This repository was created as an exercise in using `git` and github for PhonLab users. The task is to add a figure to Susan's repository that you would like to discuss at the next Lab meeting.
 
 # TL;DR
 
