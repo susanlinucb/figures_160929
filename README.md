@@ -65,7 +65,7 @@ At this point your changes have been committed to your local, private repository
 
 In order to make your committed changes public you must push them to your public repository on github:
 
-- Give the command and check the status:
+- Give the push command and check the status:
 
     git push
     git status
