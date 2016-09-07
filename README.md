@@ -27,7 +27,7 @@ In this step you will make a copy of your fork on your local system. This reposi
 1. Start the BPM and open a terminal window. Your home directory should be your current working directory.
 1. Make a clone under the `src` directory with these commands:
   cd src
-  git clone https://github.com/&lt;myusername&gt;/figures_160929  # url of your fork
+  git clone https://github.com/[myusername]/figures_160929  # url of your fork
 1. Now make the repository your working directory:
   cd figures_160929
 
@@ -59,7 +59,7 @@ In order to make your committed changes public you must push them to your public
   git push
   git status
 1. The status message should include: "Your branch is up-to-date with 'origin/master'."
-1. Visit your public repository at https://github.com/&lt;myusername&gt;/figures_160929. You should see the figure you added is now in your public repository.
+1. Visit your public repository at https://github.com/[myusername]/figures_160929. You should see the figure you added is now in your public repository.
 
 If the `git push` command returns a 403 error, it could mean you accidentally cloned from susanlinucb rather than your own public repository.
 
