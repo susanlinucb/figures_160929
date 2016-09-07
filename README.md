@@ -58,6 +58,7 @@ In order to make your committed changes public you must push them to your public
 - Give the command and check the status:
 
   git push
+
   git status
 
 - The status message should include: "Your branch is up-to-date with 'origin/master'."
