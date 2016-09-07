@@ -58,5 +58,21 @@ In order to make your committed changes public you must push them to your public
 1. Give the command and check the status:
   git push
   git status
-1. 
-## Add
+1. The status message should include: "Your branch is up-to-date with 'origin/master'."
+1. Visit your public repository at https://github.com/<myusername>/figures\_160929. You should see the figure you added is now in your public repository.
+
+If the `git push` command returns a 403 error, it could mean you accidentally cloned from susanlinucb rather than your own public repository.
+
+## Submit a pull request to Susan
+
+The final step is to submit a request to Susan to pull the changes in your public repository into her public repository.
+
+1. From your public repository on github, click the 'New pull request' button.
+1. The 'Comparing changes' page will probably indicate that the repositories are 'Able to merge', unless you happened to give your figure the same name as one that has already been added to Susan's public repository. Click on the 'Create pull request' button.
+1. On the 'Open a pull request page', leave a short comment describing what's in your pull request, then click the 'Create pull request' button.
+
+Once you have completed these steps it will be Susan's responsibility to review and merge your changes into her repository.
+
+# Extra credit
+
+Did you find a typo while you read these instructions? Are they confusing, incomplete, or downright wrong in spots? If so, make a correction to this file and submit a pull request so that others will not be misled. Thanks!
