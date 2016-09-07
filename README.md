@@ -16,7 +16,7 @@ Go to https://github.com and create an account. We'll assume you can handle this
 
 The idea in this step is to create a copy of Susan's repository under your own account on github. This will be a public repository, just like the original.
 
-1. Visit https://github.com/susanlinucb/figures\_160929 in your web browser.
+1. Visit https://github.com/susanlinucb/figures_160929 in your web browser.
 1. Click on the 'Fork' button in the upper right corner.
 1. Your fork will be created, and your web browser will automatically redirect to your forked repository. Take note of the url for the next step.
 
@@ -27,9 +27,9 @@ In this step you will make a copy of your fork on your local system. This reposi
 1. Start the BPM and open a terminal window. Your home directory should be your current working directory.
 1. Make a clone under the `src` directory with these commands:
   cd src
-  git clone https://github.com/<myusername>/figures\_160929  # url of your fork
+  git clone https://github.com/<myusername>/figures_160929  # url of your fork
 1. Now make the repository your working directory:
-  cd figures\_160929
+  cd figures_160929
 
 Is there a difference between forking and cloning? Not really, both are complete copies of a repository. The word 'fork' is used on github for server-to-server clones and isn't a term used by git itself.
 
@@ -37,7 +37,7 @@ Is there a difference between forking and cloning? Not really, both are complete
 
 The next task is to copy your figure to the repository and commit the changes.
 
-1. Using the command line or file browser, copy your figure to `~/src/figures\_160929`.
+1. Using the command line or file browser, copy your figure to `~/src/figures_160929`.
 1. At the command line, take a look at the changes you have made to the repo:
   git status
 1. You should see the name of the file you just added in the 'Untracked files' section of the status message.
@@ -59,7 +59,7 @@ In order to make your committed changes public you must push them to your public
   git push
   git status
 1. The status message should include: "Your branch is up-to-date with 'origin/master'."
-1. Visit your public repository at https://github.com/<myusername>/figures\_160929. You should see the figure you added is now in your public repository.
+1. Visit your public repository at https://github.com/<myusername>/figures_160929. You should see the figure you added is now in your public repository.
 
 If the `git push` command returns a 403 error, it could mean you accidentally cloned from susanlinucb rather than your own public repository.
 
