@@ -26,9 +26,12 @@ In this step you will make a copy of your fork on your local system. This reposi
 
 - Start the BPM and open a terminal window. Your home directory should be your current working directory.
 - Make a clone under the `src` directory with these commands:
+
   cd src
   git clone https://github.com/[myusername]/figures_160929  # url of your fork
+
 - Now make the repository your working directory:
+
   cd figures_160929
 
 Is there a difference between forking and cloning? Not really, both are complete copies of a repository. The word 'fork' is used on github for server-to-server clones and isn't a term used by git itself.
@@ -39,14 +42,21 @@ The next task is to copy your figure to the repository and commit the changes.
 
 - Using the command line or file browser, copy your figure to `~/src/figures_160929`.
 - At the command line, take a look at the changes you have made to the repo:
+
   git status
+
 - You should see the name of the file you just added in the 'Untracked files' section of the status message.
 - Tell git to start tracking the file by adding it to the repository, then check the status again:
+
   git add yourfile.png
   git status
+
 - Your file should now be in the 'Changes to be committed' section. Commit the change to the repository, including a short message describing the change:
+
   git commit -m "Added ...'s figure file."
+
 - Check the status again, which should tell you that you are ahead of 'origin/master' by 1 commit:
+
   git status
 
 At this point your changes have been committed to your local, private repository only and no one else can see them. Note that in git terminology each repository copy is a repository in its own right, and the use of 'commit' is subtly different than in other version control systems that are not as distributed in character. When you 'commit' in git you make your changes in a repository permanent, and this repository is often (but not always) your local one. These changes do not automatically propagate to other related repositories. In other version control systems (like svn), a 'commit' makes your changes permanent and copies them to the master repository.
@@ -58,7 +68,6 @@ In order to make your committed changes public you must push them to your public
 - Give the command and check the status:
 
   git push
-
   git status
 
 - The status message should include: "Your branch is up-to-date with 'origin/master'."
