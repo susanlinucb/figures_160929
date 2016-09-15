@@ -77,10 +77,17 @@ At this point your changes have been committed to your local, private repository
 
 In order to make your committed changes public you must push them to your public repository on github:
 
-- Give the push command and check the status:
-
 ```
     git push
+```
+
+- You may be asked to enter your github username and password. When typing in your password, the terminal window will not show any characters.
+- If everything is already up-to-date, you will get a message saying as much.
+
+
+- Check the status:
+
+```
     git status
 ```
 
